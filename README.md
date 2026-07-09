@@ -1,4 +1,4 @@
-# Kollam Regional Metro-Campus Network (KRCMN)
+# Kollam Regional Metro-Campus Network (KRMN)
 
  **A real-world enterprise network design connecting 9 educational institutions in Kollam, Kerala, India — built on Indian Railways' RailTel fiber infrastructure.**
 
