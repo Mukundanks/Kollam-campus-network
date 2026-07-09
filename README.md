@@ -178,12 +178,12 @@ Master block: **10.10.0.0/16**
 
 ```
 KRCMN/
-├── 01_Project_Overview/       # Scope, objectives, stakeholders
-├── 02_Business_Requirements/  # Institution requirements analysis
-├── 03_Site_Survey/            # Geography, distances, constraints
-├── 04_Physical_Design/        # Fiber topology, device placement
-├── 05_Logical_Design/         # Network architecture, topology diagrams
-├── 06_IP_Addressing/          # VLSM tables, subnet allocation
+├── 01_Project_Overview/       # Scope, objectives, stakeholders 
+├── 02_Business_Requirements/  # Institution requirements analysis 
+├── 03_Site_Survey/            # Geography, distances, constraints 
+├── 04_Physical_Design/        # Fiber topology, device placement 
+├── 05_Logical_Design/         # Network architecture, topology diagrams 
+├── 06_IP_Addressing/          # VLSM tables, subnet allocation 
 ├── 07_VLANs/                  # VLAN design, trunking, inter-VLAN routing
 ├── 08_Routing/                # Multi-area OSPF configuration
 ├── 09_Switching/              # STP, EtherChannel, port security
