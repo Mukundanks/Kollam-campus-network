@@ -45,14 +45,14 @@ The network should provide:
 
 ## Stakeholders
 
-         Stakeholder       |   Responsibility   
-  ------------------------ |--------------------
-    Railways               | Backbone provider
-    Institution Management | Campus admin
-    Network Ops team       | Daily ops
-    System Admins          | Server infrastructure
-    Faculty                | Teaching and research
-    Students               | Internet consumers
+  |       Stakeholder       |   Responsibility        |                   
+  |------------------------ |-------------------------|
+  |  Railways               | Backbone provider       |
+  |  Institution Management | Campus admin            |
+  |  Network Ops team       | Daily ops               |
+  |  System Admins          | Server infrastructure   |
+  |  Faculty                | Teaching and research   |
+  |  Students               | Internet consumers      |
 
 
   ## Project Scope
