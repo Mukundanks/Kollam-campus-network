@@ -45,8 +45,8 @@ The network should provide:
 
 ## Stakeholders
 
-  |       Stakeholder      |   Responsibility   |
-  |------------------------|--------------------|
+         Stakeholder       |   Responsibility   
+  ------------------------ |--------------------
     Railways               | Backbone provider
     Institution Management | Campus admin
     Network Ops team       | Daily ops
