@@ -1,4 +1,4 @@
-# [Business Requirement]
+# Business Requirement
 
 ## Overview
 [What this section covers — 2-3 sentences]
