@@ -29,6 +29,10 @@ There are different architectures like three-tier, spine-leaf and collapsed core
  Here, the backbone network used will be a distributed core. This will support the three-tiered approcah, while supporting future upgrades. 
  The backbone will follow a hub and spoke design, where all institutions will be connected to the central core, and inter-institution will takes place through the core. The fiber will be laid from core to FMNC, then split to the adjacent sites. Similarly, for SNT and SN group, another fiber will be laid to the sites. 
 
+ ## Fiber Type Selection
+  While selecting the optimal fiber design for the project, we had to choose between single mode and multi-mode fiber. In this context, both have its own advantages and disadvantaes, for example the distance is under 1KM. The main consideration here was about it being futureproof and supporting the HPC demand in near future and in long run. 
+  The backbone selected was singlemode fiber, and it will be future ready for next 10-15 years considerign the HPC demand
+
 //// add available types of fiber and the one using here. then short explanation of the mode. only do backbone. 
 
 ## Fiber Link Table 
