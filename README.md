@@ -132,10 +132,10 @@ Master block: **10.10.0.0/16**
 | ✅ 01 | Project Overview and Scope         | Complete    |
 | ✅ 02 | Business Requirements              | Complete    |
 | ✅ 03 | Site Survey and Geography          | Complete    |
-| ✅ 04 | Physical Design                    | Complete    |
-| ✅ 05 | Logical Design                     | Complete    |
-| ✅ 06 | IP Addressing and VLSM             | Complete    |
-| 🔄 07 | VLAN Design                        | In Progress |
+| 🔄 04 | Physical Design                    | Complete    |
+| ⏳ 05 | Logical Design                     | Complete    |
+| ⏳ 06 | IP Addressing and VLSM             | Complete    |
+| ⏳ 07 | VLAN Design                        | In Progress |
 | ⏳ 08 | Routing — Multi-Area OSPF          | Pending     |
 | ⏳ 09 | Switching — STP, EtherChannel      | Pending     |
 | ⏳ 10 | Wireless Design                    | Pending     |
