@@ -176,7 +176,7 @@ Master block: **10.10.0.0/16**
 
 ## Repository Structure
 
-```
+\`\`\`
 KRCMN/
 ├── 01_Project_Overview/       # Scope, objectives, stakeholders 
 ├── 02_Business_Requirements/  # Institution requirements analysis 
@@ -199,7 +199,7 @@ KRCMN/
 ├── 19_Post_Implementation/    # Review, lessons learned
 ├── 20_Future_Work/            # Expansion roadmap, IPv6, SD-WAN
 └── README.md                  # This file
-```
+\`\`\`
 
 ---
 
