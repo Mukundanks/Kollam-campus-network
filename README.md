@@ -133,9 +133,9 @@ Master block: **10.10.0.0/16**
 | ✅ 02 | Business Requirements              | Complete    |
 | ✅ 03 | Site Survey and Geography          | Complete    |
 | 🔄 04 | Physical Design                    | In Progress |
-| ⏳ 05 | Logical Design                     | Pending    |
-| ⏳ 06 | IP Addressing and VLSM             | Pending    |
-| ⏳ 07 | VLAN Design                        | Pending    |
+| ⏳ 05 | Logical Design                     | Pending     |
+| ⏳ 06 | IP Addressing and VLSM             | Pending     |
+| ⏳ 07 | VLAN Design                        | Pending     |
 | ⏳ 08 | Routing — Multi-Area OSPF          | Pending     |
 | ⏳ 09 | Switching — STP, EtherChannel      | Pending     |
 | ⏳ 10 | Wireless Design                    | Pending     |
