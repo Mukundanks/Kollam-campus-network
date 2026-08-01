@@ -31,15 +31,55 @@ There are different architectures like three-tier, spine-leaf and collapsed core
 
  ## Fiber Type Selection
   While selecting the optimal fiber design for the project, we had to choose between single mode and multi-mode fiber. In this context, both have its own advantages and disadvantaes, for example the distance is under 1KM. The main consideration here was about it being futureproof and supporting the HPC demand in near future and in long run. 
-  The backbone selected was singlemode fiber, and it will be future ready for next 10-15 years considerign the HPC demand
+  The backbone selected was singlemode fiber, and it will be future ready for next 10-15 years considering the HPC demand
 
-//// add available types of fiber and the one using here. then short explanation of the mode. only do backbone. 
+  The available fiber types for Single Mode Fiber (SMF) are OS1 and OS2. Here, OS2 is selected as, OS1 is completely used for indoor purposes. In additoin to that, it cannot be even used inside a duct because of the poor water insulation capabilities. 
 
 ## Fiber Link Table 
 
+   | Link       |Distance| Fiber| Core Count |Redundant|        Medium      | Speed| 
+   |------------|--------|------|------------|---------|--------------------|------|
+   |DC > FMNC   |50      | OS2  | 06         | No      |partially over-head |25G   |
+   |DC > SNT    |350     | OS2  | 06         | No      |over-head           |1G    |
+   |FMNC > BJArc|150     | OS2  | 06         | No      |underground         |25G   |
+   |FMNC > BJEC |250     | OS2  | 06         | No      |underground         |25G   |
+   |FMNC > KRS  |300     | OS2  | 06         | No      |underground         |1G    |
+   |SNT > SNL   |200     | OS2  | 06         | No      |over-head           |25G   |
+   |SNL > SNW   |100     | OS2  | 06         | No      |underground         |25G   |
+   |SNL > SNC   |150     | OS2  | 06         | No      |underground         |25G   |
+
 ## Device Placement Per Site
 
+ ### Core Devices -Railway DC
+   1. Core switch - terminates all 8 institutions-facing fiber links. Deals with all internal routing, and  it is then fed to:
+   2. Core Firewall - Sits between the router and WAN. 
+   3. Core Router - High-performance router to handle external routing
+   4. Central Servers - Servers running DNS, DHCP, WLC for visitors, and RADIUS
+   
+   Initially, the Core will be a Single Point of Failure (SPOF). It will later be upgraded once approved by railway to bring in secondary ISP on site. 
+ 
+ ### Per-Institution Design
+  Each institution will have the following standard layout:
+   * A distribution switch which is connected to the backbone,
+   * Access layer switches(L3) 
+   * Wireless Lan Controller on-site exclusively for students and staff
+   >> The exception for the layout will be for:
+   >>> SNT and KRS will have a collapsed layer architecture with L2 switches
+   >>> BJEC will have extra devices in place to meet HPC demands
+
+
+
 ## Rack/Room Design — Railway NOC
+
+   ### Rack Elevation / Layout
+
+   ## Power
+
+   ### Cooling
+
+   ### Physical Security
+
+   ### Cable Entry & Termination
 
 
 ## Cabling Standards
@@ -49,5 +89,5 @@ There are different architectures like three-tier, spine-leaf and collapsed core
 
 
 
-*Last updated: [22/07/2026]*
+*Last updated: [01/08/2026]*
 *Status: [In Progress ]*
