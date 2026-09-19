@@ -1,5 +1,3 @@
-///Chapter 6 – Logical Network Design
-
 ## 6.1 Overview
 
 Logical design defines the business requirements, site survey findings, physical architecture and IP capacity planning based on the previous findings. These findings are then populated into the logical operating model for the KMRN network. 
@@ -62,9 +60,9 @@ The architecture consists of:
      │       │        │        │
    FMNC     SNC     BJEC      ...
      │
- ┌───┴──────────────────────────────┐
- │ Student │ Staff │ Voice │ CCTV  │
- │ Guest   │ IoT   │ Labs  │ etc.  │
+ ┌───▼──────────────────────────────┐
+ │ Student │ Staff │ Voice │ CCTV   │
+ │ Guest   │ IoT   │ Labs  │ etc.   │
  └──────────────────────────────────┘
 
 
