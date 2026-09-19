@@ -3,7 +3,7 @@
  **A real-world enterprise network design connecting 9 educational institutions in Kollam, Kerala, India — built on Indian Railways' RailTel fiber infrastructure.**
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
-![Phase](https://img.shields.io/badge/Phase-VLAN%20Design-blue)
+![Phase](https://img.shields.io/badge/Phase-Logical%20Design-blue)
 ![Institutions](https://img.shields.io/badge/Institutions-9-green)
 ![Students](https://img.shields.io/badge/Students-6400%2B-green)
 ![Tools](https://img.shields.io/badge/Tools-GNS3%20%7C%20Packet%20Tracer%20%7C%20VMware-lightgrey)
@@ -132,8 +132,8 @@ Master block: **10.10.0.0/16**
 | ✅ 01 | Project Overview and Scope         | Complete    |
 | ✅ 02 | Business Requirements              | Complete    |
 | ✅ 03 | Site Survey and Geography          | Complete    |
-| 🔄 04 | Physical Design                    | In Progress |
-| ⏳ 05 | Logical Design                     | Pending     |
+| ✅ 04 | Physical Design                    | In Progress |
+| 🔄 05 | Logical Design                     | Pending     |
 | ⏳ 06 | IP Addressing and VLSM             | Pending     |
 | ⏳ 07 | VLAN Design                        | Pending     |
 | ⏳ 08 | Routing — Multi-Area OSPF          | Pending     |
